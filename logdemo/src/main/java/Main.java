@@ -12,6 +12,7 @@ public class Main {
     private static Logger logger = LoggerFactory.getLogger(com.self.learn.log4j.Main.class);
 
     public static void main(String[] args) {
+
         com.self.learn.log4j.Main.main(args);
         com.self.learn.log4j2.Main.main(args);
         com.self.learn.logback.Main.main(args);
